@@ -1,0 +1,70 @@
+.Login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin-block: 60px;
+}
+.Login h3{
+    font-weight: bolder;
+}
+.Login-options{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Login-options div{
+    width: 350px;
+    border: 1px solid black;
+    font-weight:900;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.loginInp{
+    width: 350px;
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.loginInp::placeholder{
+    color: black;
+    font-weight:bold;
+}
+.Login-options div img{
+    scale: 1/1;
+    width: 35px;
+}
+.loginBtn{
+    width: 350px;
+    border: none;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(183, 0, 255);
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.login-highlights{
+    color: rgb(123, 0, 255);
+    text-decoration: underline;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.login-highlights:hover{
+    cursor: pointer;
+}
+
+.Login p{
+    text-align: center;
+}

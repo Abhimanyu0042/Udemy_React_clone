@@ -1,0 +1,136 @@
+.body-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .Hide-navkeys{
+      display: none;
+  }
+  .triple-line{
+      display: block;
+      font-size: larger;
+  }
+  .navigation-bar{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      background-color: white;
+      padding-inline: 1rem;
+  }
+  .in-container-1{
+      width: 90%;
+  }
+  .picbox{
+      background-image: url(https://img-b.udemycdn.com/notices/web_banner/slide_1_image_udlite/dfd08898-7698-411d-9b27-510fbde547c0.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      justify-items: left;
+      height: 400px;
+  }
+  .picbox-content{
+      background-color: white;
+      font-size: larger;
+      /* margin-left: 4rem;
+      margin-top: 4rem; */
+      /* padding: 2rem; */
+      height: fit-content;
+      box-shadow: 1px 1px 10px 1px rgb(171, 171, 171);
+  }
+  .footer-list{
+      gap: 4rem;
+  }
+  .featured-list-item{
+      padding-bottom: 2rem;
+  }
+  .udemy-business{
+      display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 400px;
+      align-self: center;
+  }
+  .udemy-business1{
+      padding: 2rem;
+  }
+  .Hide-navkeys1{
+      display: none;
+      align-self:stretch;
+  }
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 1200px) {
+  .Hide-navkeys{
+      display: none;
+  }
+  .triple-line{
+      display: block;
+      font-size: larger;
+  }
+  .navigation-bar{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      background-color: white;
+      padding-inline: 1rem;
+  }
+  .in-container-1{
+      width: 90%;
+  }
+  .picbox{
+      background-image: url(https://img-b.udemycdn.com/notices/web_banner/slide_1_image_udlite/dfd08898-7698-411d-9b27-510fbde547c0.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      justify-items: left;
+      height: 400px;
+  }
+  .picbox-content{
+      background-color: white;
+      font-size: larger;
+      /* margin-left: 4rem;
+      margin-top: 4rem; */
+      /* padding: 2rem; */
+      height: fit-content;
+      box-shadow: 1px 1px 10px 1px rgb(171, 171, 171);
+  }
+  .footer-list{
+      gap: 4rem;
+  }
+  .featured-list-item{
+      padding-bottom: 2rem;
+  }
+  .udemy-business{
+      display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 400px;
+      align-self: center;
+  }
+  .udemy-business1{
+      padding: 2rem;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {}
